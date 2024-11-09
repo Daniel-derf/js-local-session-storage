@@ -15,5 +15,12 @@ localStorage.setItem("b", 2)
 localStorage.clear()
 
 // session storage
-sessionStorage.setItem("number", 123);
+sessionStorage.setItem("number", 123); // reiniciar e perder dados
+
+const n = sessionStorage.getItem("number")
+
+console.log(n)
+
+
+
 
