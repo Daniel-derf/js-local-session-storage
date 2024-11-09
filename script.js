@@ -14,3 +14,6 @@ localStorage.setItem("b", 2)
 
 localStorage.clear()
 
+// session storage
+sessionStorage.setItem("number", 123);
+
