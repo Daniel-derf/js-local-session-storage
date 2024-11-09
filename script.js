@@ -21,6 +21,21 @@ const n = sessionStorage.getItem("number")
 
 console.log(n)
 
+// salvar objeto
+const person = {
+    name: 'daniel',
+    age: 20,
+    job: 'software engineer'
+}
+
+localStorage.setItem('person', JSON.stringify(person))
+
+const getPerson = localStorage.getItem("person")
+
+const personObject = JSON.parse(getPerson)
+
+console.log(personObject.name)
+
 
 
 
