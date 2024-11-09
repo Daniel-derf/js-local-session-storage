@@ -8,3 +8,9 @@ console.log('name: ', name)
 // remover item
 localStorage.removeItem("name")
 
+// limpar todos os itens
+localStorage.setItem("a", 1)
+localStorage.setItem("b", 2)
+
+localStorage.clear()
+
